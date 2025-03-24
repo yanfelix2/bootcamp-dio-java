@@ -1,11 +1,23 @@
 public class Operadores {
     public static void main(String[] args) throws Exception {
 
-      boolean v = false;
+
+      //INVERTENDO VALORES COM !
       
-      v = !v;
+      // boolean v = false;
       
-      System.out.println(v);
+      // v = !v;
+      
+      // System.out.println(v);
+
+      int numero = 10;
+      int numero2 = 6;
+
+
+      // TERNARIOS
+      String resultado = numero > numero2 ? "Verdadeiro" : "Falso";
+
+      System.out.println(resultado);
         
         
     }
